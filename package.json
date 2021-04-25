@@ -1,0 +1,27 @@
+{
+  "name": "agri-back",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "http://aksplan01.github.io/agri-back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
